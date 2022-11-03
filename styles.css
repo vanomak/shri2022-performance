@@ -273,12 +273,11 @@ html, body {
     display: flex;
     gap: 0.9375rem;
     height: 20.6875rem;
-    /*background: no-repeat 50% 50% url(assets/bg@2x.png);*/
     background: no-repeat 50% 50% url(assets/bg@2x.jpg);
-    /*background-image: image-set(*/
-    /*        url(assets/bg@1x.jpg) 1x,*/
-    /*        url(assets/bg@2x.jpg) 2x*/
-    /*);*/
+    background-image: image-set(
+            url(assets/bg@1x.jpg) 1x,
+            url(assets/bg@2x.jpg) 2x
+    );
     /*background-size: cover;*/
     background-size: 1260px;
     border-radius: 1.25rem;
